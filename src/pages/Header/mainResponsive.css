@@ -1,0 +1,309 @@
+@media only  screen and (max-width: 1300px){
+    .mainCompany .mainLinks{
+        padding: 0px 20px;
+    }
+    .mainCompany .mainCards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .mainCompany .card{
+        width: 230px;
+
+    }
+    main .footerHead{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media only  screen and (max-width: 1200px){
+    
+    .mainCompany .mainLinks{
+        padding: 0px 20px;
+    }
+    .mainCompany .mainLinks img{
+        width: 150px;
+    }
+    .mainCompany .mainWork{
+        width: 100%;
+        padding: 0px 20px;
+        
+    }
+    .mainCompany .mainWork2{
+        width: 100%;
+        padding: 0px 20px;
+        
+    }
+    .mainCompany .mainWorkTitle{
+        width: 50%;
+    }
+    .mainCompany .mainWorkTitle h1{
+        font-size: 30px;
+    }
+    .mainCompany .mainWorkTitle p{
+        width: 400px;
+        font-size: 15px;
+    }
+    .mainCompany .mainWorkImg img{
+        width: 400px;
+    }
+    .headerMain .headerImg img{
+        width: 400px;
+    }
+
+}
+
+@media only  screen and (max-width: 867px){
+    .headerMain .head{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .headerMain .headerMain{
+        padding: 20px 10px;
+    }
+    .headerMain .headerImg img{
+        width: 330px;
+    }
+    .headerMain .headerDesc{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .headerMain .headerDesc h1{
+        font-size: 25px;
+    }
+    .headerMain .headerDesc p{
+        width: 350px;
+        font-size: 13px;
+    }
+    .headerMain .headBtn{
+        width: 110px;
+        height: 30px;
+        font-size: 15px;
+    }
+    main .mainCards{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    main .mainLinks{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .mainCard .mainLinks img:not(:last-child){
+        padding-left: 10px;
+    }
+    main .mainWork .mainWorkImg img{
+        width: 300px;
+    }
+    main .mainWork2 .mainWorkImg img{
+        width: 300px;
+    }
+    main .mainBtn{
+        width: 110px;
+        height: 34px;
+        font-size: 15px;
+    }
+    main .mainWorkTitle h1{
+        font-size: 20px;
+    }
+    
+    main .mainWorkTitle p{
+        width: 350px;
+        font-size: 13px;
+    }
+}
+
+@media only  screen and (max-width: 768px){
+    .headerMain .head{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 20px 0px;
+        gap: 20px;
+    }
+    .headerMain{
+        padding: 80px 10px;
+    }
+    .headerMain .headerDesc{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .headerMain .headerDesc span{
+        font-size: 20px;
+    }
+    .headerMain .headerDesc h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .headerMain .headerDesc p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .headerMain .headerImg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headerMain .headerImg img{
+        height: 260px;        
+    }
+    .headerMain .headBtn{
+        width: 150px;
+        height: 35px;
+    }
+    
+    
+    footer .lucideIcon{
+        width: 15px;
+    }
+    footer .footerHead{
+        padding:  0px 10px;
+    }
+    footer .lucideIcon{
+        width: 15px;
+    }
+    footer .footerLinks{
+        display: flex;
+        align-items: center;
+    }
+    footer .footerLinks ul li a{
+        font-size: 15px;
+    }
+    footer .footerP span{
+        font-size: 15px;
+    }
+
+}
+
+@media only  screen and (max-width: 700px){
+    main .mainWork{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+        gap: 15px;
+    }
+    main .mainWork2{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+    main .mainWorkTitle{
+        width: 450px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    main .mainWorkImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    main .mainWorkImg img{
+        width: 350px;
+    }
+    main .workBtn{
+        width: 354px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+@media only  screen and (max-width: 568px){
+    main .mainCards{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    main .card{
+        width: 252px;
+        height: 300px;
+    }
+    
+    main .headerDesc{
+        width: 100%;
+    }
+    main .headerDesc span{
+        font-size: 13px;
+    }
+    main .headerDesc h1{
+        width: 80%;
+        font-size: 25px;
+    }
+    main .headerDesc p{
+        width: 94%;
+        font-size: 13px;
+    }
+    main .mainTitle{
+        width: 100%;
+    }
+    main .mainTitle span{
+        font-size: 13px;
+    }
+    main .mainTitle h1{
+        font-size: 24px;
+    }
+    main .mainTitle p{
+        font-size: 17px;
+    }
+    main .mainWorkTitle{
+        width: 100%;
+    }
+    main .mainWorkTitle p{
+        width: 100%;
+    }
+    main .mainWorkTitle .workBtn{
+        width: 100%;
+    }
+    main .mainCardTitle{
+        width: 100%;
+    }
+    main .mainLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    main .mainLinks img{
+        width: 180px;
+    }
+    main .mainBtn{
+        width: 150px;
+        height: 43px;
+        font-size: 17px;
+    }
+    .main.footerHead{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}

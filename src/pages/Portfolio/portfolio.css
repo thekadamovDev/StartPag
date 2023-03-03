@@ -1,0 +1,103 @@
+.portfolio{
+    width: 100%;
+    padding-top: 130px;
+}
+
+.mainPortfolio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+.portfolioTitle{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px 0px;
+}
+.portfolioTitle span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #74C69D;
+    font-family: var(--fonts-primary);
+}
+.portfolioTitle h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-secondry);
+}
+
+.portfolioTitle p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-primary);
+
+}
+.portfolioCards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 55px;
+    grid-row-gap: 50px;
+}
+.portfolioCard{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.portfolioCard img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 125px;
+    background-color: var(--bg-color);
+}
+
+.footerHead{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLinks ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footerLinks ul li a{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footerP span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: var(--fonts-primary);
+}

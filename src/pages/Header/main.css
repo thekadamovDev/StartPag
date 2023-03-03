@@ -1,0 +1,326 @@
+.main{
+    width: 100%;
+    
+}
+.headerMain{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    padding-top: 130px;    
+}
+.head{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.headerDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.headerDesc span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: var(--fonts-primary);
+}
+.headerDesc h1{
+    width: 416px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #FFFFFF;
+    font-family: var(--fonts-secondry);
+}
+
+.headerDesc p{
+    width: 416px;
+    font-family: var(--fonts-secondry);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--paragraph-size);
+    line-height: 125%;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+.headBtn{
+    width: 170px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-family: var(--fonts-primary);
+    cursor: pointer;
+    transition: transform .2s 0s ease;
+}
+.headBtn:active{
+    transform: scale(.95);
+    
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+.mainCompany{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 60px 0px 73px 0px;
+}
+.mainTitle{
+    width: 411px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.upparcase{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: var(--fonts-primary);
+    text-transform: uppercase;
+    color: var(--bg-color);
+}
+.mainTitle h1{
+    font-weight: 700;
+    font-size: var(--title);
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-secondry);
+}
+
+.mainTitle p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-primary);
+}
+.mainLinks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainBtn{
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    font-family: var(--fonts-primary);
+    background-color: var(--bg-btn);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform .2s 0s ease;
+}
+.mainBtn:active{
+    transform: scale(.95);
+}
+
+.mainWork{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.mainWork2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.mainWorkTitle{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mainWorkTitle h1{
+    font-weight: 700;
+    font-size: var(--title);
+    line-height: 125%;
+    color: #212529;
+    font-family: var(--fonts-secondry);
+}
+
+.mainWorkTitle p{
+    font-weight: 400;
+    font-size: var(--paragraph-size);
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.5);
+    font-family: var(--fonts-primary);
+}
+
+.mainCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 54px;
+}
+
+.mainCardTitle{
+    width: 404px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mainCardTitle h1{
+    font-weight: 700;
+    font-size: var(--title);
+    line-height: 125%;
+    color: #212529;
+    font-family: var(--fonts-secondry);
+}
+
+.mainCardTitle p{
+    font-weight: 400;
+    font-size: var(--paragraph-size);
+    line-height: 125%;
+    color: #000000;
+    font-family: var(--fonts-primary);
+}
+
+.mainCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card{
+    width: 252px;
+    height: 299px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    gap: 19px;
+    cursor: pointer;
+    transition: transform .2s 0s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(.95);
+}
+
+.cardPrimary{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.cardImg{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 1px solid  #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.cardImg img{
+    position: absolute;
+    top: 10px;
+}
+/*  */
+
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.cardTitle h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #212529;
+    font-family: var(--fonts-secondry);
+}
+.cardTitle span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.75);
+    font-family: var(--fonts-primary);
+    text-transform: uppercase;
+}
+
+footer{
+    width: 100%;
+    height: 125px;
+    background-color: var(--bg-color);
+}
+
+.footerHead{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLinks ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footerLinks ul li a{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footerP span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: var(--fonts-primary);
+}
+
+

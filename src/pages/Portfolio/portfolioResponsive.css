@@ -1,0 +1,41 @@
+@media only  screen and (max-width: 768px){
+    .footerHead{
+        padding:  0px 10px;
+    }
+    .lucideIcon{
+        width: 15px;
+    }
+    .footerLinks{
+        display: flex;
+        align-items: center;
+    }
+    .footerLinks ul li a{
+        font-size: 15px;
+    }
+    .footerP span{
+        font-size: 15px;
+    }
+}
+@media only  screen and (max-width: 568px){
+    .portfolioCards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 55px;
+        grid-row-gap: 50px;
+    }
+    .portfolioTitle{
+        width: 100%;
+    }
+    .portfolioTitle p{
+        font-size: 15px;
+    }
+    .footerHead{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,245 @@
+.servis{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+.servisTtile{
+    width: 411px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.servisTtile span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--bg-color);
+    font-family: var(--fonts-primary);
+    padding-top: 35px;
+}
+.servisTtile h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-secondry);
+}
+.servisTtile p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    font-family: var(--fonts-primary);
+}
+.servisCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 135px;
+    gap: 30px;
+}
+.servisCard{
+    display: flex;
+    flex-direction: column;
+    padding: 46px 30px;
+    gap: 10px;
+    width: 339px;
+    height: 542px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s 0s ease-in-out;
+}
+.servisCard:hover{
+    transform: scale(.95);
+}
+.servisCard .span1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #000000;
+    font-family: var(--fonts-primary);
+}
+.price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.price h1{
+    font-family: var(--fonts-primary);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #000000;
+
+}
+.price .month{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.5);
+    font-family: var(--fonts-primary);
+}
+.servisCard .parag{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    text-align: center;
+    color: rgba(33, 37, 41, 0.5);
+    font-family: var(--fonts-primary);
+}
+.checks{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.check{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.check p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    text-align: center;
+    color: #212529;
+    font-family: var(--fonts-primary);
+}   
+
+.servisBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.mainBtn2{
+    width: 170px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    font-family: var(--fonts-primary);
+    background-color: var(--bg-btn);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform .2s 0s ease;
+}
+.mainBtn2:active{
+    transform: scale(.95);
+}
+
+footer{
+    width: 100%;
+    height: 125px;
+    background-color: var(--bg-color);
+}
+
+.footerHead{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLinks ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footerLinks ul li a{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footerP span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: var(--fonts-primary);
+}
+
+@media only  screen and (max-width: 768px){
+    .servisCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .servisTtile{
+        width: 335px;
+    }
+    .servisTtile h1{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 125%;
+        text-align: center;
+        color: #000000;
+    }
+    .servisTtile p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+        text-align: center;
+        color: #000000;
+    }
+    .footerHead{
+        padding:  0px 10px;
+    }
+    .lucideIcon{
+        width: 15px;
+    }
+    .footerLinks{
+        display: flex;
+        align-items: center;
+    }
+    .footerLinks ul li a{
+        font-size: 15px;
+    }
+    .footerP span{
+        font-size: 15px;
+    }
+}
+
+@media only  screen and (max-width: 568px){
+    .footerHead{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+@media only  screen and (max-width: 500px){
+    .servisCards{
+        padding-bottom: 30px;
+    }
+}

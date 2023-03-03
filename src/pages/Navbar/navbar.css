@@ -1,0 +1,127 @@
+.navbar{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+.navFixed{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+}
+.navHead{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0px;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.navLogo h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: var(--fonts-primary);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navLinks ul li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navLinks ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+    font-family: var(--fonts-primary);
+    position: relative;
+}
+
+
+.navLinks ul li a:hover::before{
+    width: 100%;
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #fff;
+    bottom: -2px;
+}
+.burgerMenu{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    display: none;
+}
+.burgerClose{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.burgerClose button{
+    width: 50px;
+    height: 50px;
+    margin:30px 10px 0px 0px;
+    background-color: transparent;
+    border: none;
+}
+.burgerClose button:active{
+    transform: scale(.95);
+}
+.openMenu{
+    width: 180px;
+    height: 100vh;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.menuContainer{
+    width: 100%;
+    
+}
+.menuContainer ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+.menuContainer ul li a{
+    width: 100%;
+    font-size: 23px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    padding: 10px 30px 0px 0px;
+    font-family: var(--fonts-primary);
+    transition: all .1s 0s ease-in-out;
+}
+.menuContainer ul li a:active{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.close{
+    transform: translateX(100%);
+    transition: .3s ease;
+  }
+  .open{
+    transform: translateX(0);
+    transition: .3s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  

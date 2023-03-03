@@ -1,0 +1,62 @@
+
+@media only  screen and (max-width: 1200px){
+    .container{
+        padding: 35px 10px;
+    }
+    .navHead{
+        padding: 35px 20px;
+    }
+    
+
+}
+
+@media only  screen and (max-width: 768px){
+    
+    .navLinks ul li a{
+        font-size: 17px;
+    }
+    .navLogo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .navLogo img{
+        width: 60px;
+    }
+    .navLogo h1{
+        font-size: 30px;
+    }
+    .footerHead{
+        padding:  0px 10px;
+    }
+    .lucideIcon{
+        width: 15px;
+    }
+    .footerLinks{
+        display: flex;
+        align-items: center;
+    }
+    .footerLinks ul li a{
+        font-size: 15px;
+    }
+    .footerP span{
+        font-size: 15px;
+    }
+    
+}
+@media only  screen and (max-width: 568px){
+    .navLinks{
+        display: none;
+    }
+    .burgerMenu{
+        display: block; 
+    }
+    .footerHead{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+}
